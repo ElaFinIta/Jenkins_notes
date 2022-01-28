@@ -61,7 +61,7 @@ pipeline {
 } 
 ```
 
-9. After pushing you'll see that the pipeline broke:
+8. After pushing you'll see that the pipeline broke:
 
 
 ![broken_pipeline](https://user-images.githubusercontent.com/88823568/151505753-a3ba656a-7c2e-42bb-8146-19ef71b92976.png)
@@ -72,7 +72,7 @@ This is the view with the Blue Ocean plugin:
 ![blue_ocean](https://user-images.githubusercontent.com/88823568/151505815-001b2b2c-1250-4c72-adb5-f49f58c70034.png)
 ![blue_ocean2](https://user-images.githubusercontent.com/88823568/151506112-e0f9d586-87fb-4ec5-b51e-2584382a17a8.png)
 
-10. Revert the mistake by fixing the Jenkinsfile >>> after pushing, the pipeline of both branches are ok
+9. Revert the mistake by fixing the Jenkinsfile >>> after pushing, the pipeline of both branches are ok
 ![success](https://user-images.githubusercontent.com/88823568/151506191-7bd6924e-bbc5-462a-8b39-b6e16157d936.png)
 
 ![blueocean_success](https://user-images.githubusercontent.com/88823568/151506665-0d3fcc03-3a56-4924-8bd7-644f2f16f516.png)
